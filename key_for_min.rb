@@ -15,6 +15,7 @@ def key_for_min_value(name_hash)
         min = arr[i]
       end
       i += 1
+    end
     result = name_hash.key(min)
   end
   result
