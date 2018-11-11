@@ -17,4 +17,5 @@ def key_for_min_value(name_hash)
       i += 1
     result = name_hash.key(min)
   end
+  result
 end
